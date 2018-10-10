@@ -1,11 +1,11 @@
 # Ads-Detection
 
-Objectives:
-1.	Project use case overview
-2.	Defining the problem statement.
-3.	Business solution blueprint development.
-4.	Explore and define the machine learning use case.
-5.	Exploratory data analysis and feature engineering.
-6.	Approach for model development, evaluation and optimization.
-7.	Storyboarding – connecting the dots.
+  One of the purposes for this project is to analyzing the distributions of ads
+provided by different sources, so we could have a rough idea about the environment of
+Internet.
 
+  The problem is pretty much simplified to a standard text classification problem
+
+Objectives :
+1. Creating a ML model.
+2. Generating parse scripts to distinguish JS code from HTML.
