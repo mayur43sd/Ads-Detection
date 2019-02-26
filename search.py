@@ -1,5 +1,4 @@
 import re
-
 flog = open('src.txt', 'r')
 fog = open('arg.txt', 'r')
 
