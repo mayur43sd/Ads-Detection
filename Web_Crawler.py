@@ -9,6 +9,7 @@ source = requests.get(url)
 plaintext = source.text
 soup = bs(plaintext)
 
+#Finding the url's
 def find():
     fw = open('src.txt','w')
     for link in soup.findAll('script'):    
@@ -21,6 +22,7 @@ def find():
         
 find()
 
+#Cross-Referencing with EasyList
 flog = open('src.txt', 'r')
 fog = open('arg.txt', 'r')
 
@@ -56,6 +58,7 @@ def search():
 
 search()        
 
+#Creating Dataset
 def create_ds():
     records = []
     fr = open('src.txt','r')
